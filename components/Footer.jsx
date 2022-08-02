@@ -1,13 +1,13 @@
 import React from "react";
-import Coins from './Coins';
+import styles from "../styles/Footer.module.css";
 
 
 const Footer = () => {
   return (
     <div className="footer_Container">
         <div className="footer_Container">
-            <div>
-                <h1 className="w-32 py-[20x] font-bold text-white text-xl sm:text-3xl" >Made with ♥‿♥ by Tshembani Mhlongo aka 0xRedPill😁</h1>
+            <div className="footer_Container">
+                <h1 className={styles.footer_Container}>© 2022 Copyright: Made with ♥‿♥ by Made with ♥‿♥ by NerveLabs.</h1>
             </div>
         </div>
     </div>
@@ -15,3 +15,6 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+
